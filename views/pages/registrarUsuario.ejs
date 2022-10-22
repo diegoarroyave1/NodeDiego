@@ -19,26 +19,26 @@
                         <h4 class="my-0 fw-normal">Registre el producto</h4>
                     </div>
                     <main class="form-signin w-100 m-auto">
-                        <form  action="Insercion">
+                        <form  action="/registrarUsuario" method="post">
                           <h2  class="h3 mb-3 fw-normal">Correo</h2 >
                           <div class="form-floating">
                             <input type="text" class="form-control" id="floatingInput" name="Correo" placeholder="Correo" >
                             <label for="floatingInput">Correo </label>
                           </div><br>
-                          <h2 class="h3 mb-3 fw-normal">Contraseña</h2 >
-                          <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" name="password" placeholder="Contraseña">
-                            <label for="floatingInput">Contraseña</label>
-                          </div><br>
                           <h2  class="h3 mb-3 fw-normal">Rol</h2 >
                           <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" name="rol" placeholder="Rol" >
+                            <input type="text" class="form-control" id="floatingInput" name="Rol" placeholder="Rol" >
                             <label for="floatingInput">Rol </label>
                           </div><br>
-                          <h2  class="h3 mb-3 fw-normal">Habilitado</h2 >
+                          <h2 class="h3 mb-3 fw-normal">Contraseña</h2 >
+                            <div class="form-floating">
+                              <input type="text" class="form-control" id="floatingInput" name="Contraseña" placeholder="Contraseña">
+                              <label for="floatingInput">Contraseña</label>
+                            </div><br>
+                          <h2  class="h3 mb-3 fw-normal">Id</h2 >
                           <div class="form-floating">
-                            <input type="text" class="form-control" id="floatingInput" name="habilitado" placeholder="Habilitado">
-                            <label for="floatingInput">Habilitado</label>
+                            <input type="text" class="form-control" id="floatingInput" name="Id" placeholder="Id">
+                            <label for="floatingInput">Id</label>
                           </div><br>
                       
                           <button class="w-100 btn btn-lg btn-primary" type="submit">Registrar</button>
